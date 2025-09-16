@@ -1,0 +1,58 @@
+#projetos {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+.projetos-title {
+    font-size: 40px;
+}
+
+.projetos-item {
+    width: 50%;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    margin: 40px;
+}
+
+.dimgs {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    flex-direction: column;
+    margin: 10px;
+}
+
+.upper {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.lower {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.upper>img, .lower>img {
+    width: 200px;
+    object-fit: contain;
+}
+
+.uimg {
+    width: 100%;
+}
+
+.uimg>img {
+    width: 400px;
+    object-fit: contain;
+}
